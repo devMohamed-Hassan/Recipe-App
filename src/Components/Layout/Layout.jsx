@@ -1,22 +1,20 @@
-import React from 'react'
-import styles from './Layout.module.css'
-import SideBar from '../SideBar/SideBar'
-import { Outlet } from 'react-router-dom'
-import Footer from '../Footer/Footer'
+import React from 'react';
+import SideBar from '../SideBar/SideBar';
+import { Outlet } from 'react-router-dom';
+import Footer from '../Footer/Footer';
 
 function Layout() {
   return (
-    <>
+    <div className="flex bg-[#F4F2EE] min-h-screen">
       <SideBar />
-      <div className="bg-[#F4F2EE] ms-[250px]">
-        <div className="container">
+      <div className="flex flex-col flex-1 ms-64">
+        <main className="flex-grow px-3 py-4 overflow-auto">
           <Outlet />
-        </div>
+        </main>
+        <Footer />
       </div>
-      <Footer />
-    </>
-
-  )
+    </div>
+  );
 }
 
-export default Layout
+export default Layout;
