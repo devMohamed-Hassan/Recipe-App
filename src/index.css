@@ -1,5 +1,16 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
+.font-pacifico {
+  font-family: 'Pacifico', cursive;
+  /* font-weight: 400; */
+}
+
+
+.font-cursive {
+  font-family:  cursive;
+  /* font-weight: 400; */
+}
 
 
 .active{

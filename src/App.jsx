@@ -13,7 +13,7 @@ function App() {
       path: "/", element: <Layout />, children: [
         { index: true, element: <Home /> },
         { path: "area", element: <Area /> },
-        { path: "mealdetails", element: <MealDetails /> },
+        { path: "mealdetails/:id", element: <MealDetails /> },
         { path: "ingredients", element: <Ingredients /> },
         { path: "*", element: <NotFound /> },
       ]
