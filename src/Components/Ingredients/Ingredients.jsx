@@ -14,8 +14,8 @@ function Ingredients() {
           </h1>
           
           <div className="bg-gray-50 rounded-lg p-4">
-           <p className="text-lg text-gray-500 font-cursive">
-             مكسل اعمله
+           <p className="text-xl text-gray-500 ">
+             😴🥱مكسل اعمله
             </p>
           </div>
         </div>
