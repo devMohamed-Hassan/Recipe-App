@@ -115,3 +115,26 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #e0851f;
 }
+
+
+.rotate-on-hover {
+  transition: transform 0.7s ease;
+}
+
+.rotate-on-hover:hover {
+  transform: rotate(360deg);
+}
+
+
+@keyframes autoRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.auto-rotate {
+  animation: autoRotate 0.7s ease-in-out;
+}

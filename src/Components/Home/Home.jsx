@@ -172,8 +172,9 @@ function Home() {
                     <img
                       src={meal.strMealThumb}
                       alt={meal.strMeal}
-                      className="w-full object-cover rounded-full drop-shadow-xl border-4 border-white -translate-y-8 lg:-translate-y-16 m-auto transition-all duration-700 group-hover:rotate-[360deg]"
+                      className="w-full object-cover rounded-full drop-shadow-xl border-4 border-white m-auto rotate-on-hover auto-rotate -translate-y-8 lg:-translate-y-16"
                     />
+
                     <h3 className="font-semibold -mt-8 lg:-mt-12 font-Pacifico tracking-wider text-lg lg:text-xl truncate max-w-[200px] mx-auto">
                       {meal.strMeal}
                     </h3>
